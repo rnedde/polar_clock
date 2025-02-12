@@ -23,16 +23,16 @@ function draw(){
 
     push();
     fill(100,150,250,100);
-    polarEllipses(sc, 10, 50, 200);
+    polarEllipses(sc, 10.4, 50, 200);
     pop();
     push();
     fill(100,200,150,100);
-    polarTriangles(hr, 20,70);
+    polarTriangles(hr%12, 30,100);
     pop();
 
     push();
     fill(200,100,150,100);
-    polarSquares(mn, 20, 110);
+    polarSquares(mn, 7, 140);
     pop();
 
     
